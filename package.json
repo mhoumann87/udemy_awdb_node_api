@@ -1,0 +1,21 @@
+{
+  "name": "11_node_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
