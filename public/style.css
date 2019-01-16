@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,400,800');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+  background-color: #525C68;
+  color: #fff;
+  font-size: 100%;
+}
+
+main {
+  width: 60%;
+  margin: 0 auto;
+}
+
+header {
+  margin: 3rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 1.8rem;
+  font-weight: 200;
+  font-size: 7rem;
+}
+
+header h1 span {
+  font-weight: 800;
+  font-size: 1.1em;
+}
+
+header h2 {
+  font-weight: normal;
+  font-size: 2.4em;
+}
+
+.form {
+  margin: 2rem 0;
+  display: flex;
+}
+
+.form input {
+  width: 100%;
+  border: none;
+  border-bottom: 3px solid #fff;
+  padding: .4rem 0;
+  background-color: transparent;
+  font-size: 2.2rem;
+  color: #fff;
+}
+
+.form input::placeholder {
+  color: #a3a3a3;
+}
+
+.list {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.task {
+  width: 100%;
+  padding: 1rem 0;
+  font-size: 1.4rem;
+  transition: all 0.25s;
+}
+
+.task:hover {
+  background-color: rgba(105, 117, 133, 0.2);
+  cursor: pointer;
+}
+
+.task:hover span {
+  opacity: 1;
+}
+
+.task.done {
+  text-decoration: line-through;
+  color: #a3a3a3;
+}
+
+li span {
+  float: right;
+  color: #C5141C;
+  transition: all 0.25s;
+  opacity: 0;
+  margin-right: 1rem;
+}
+
+li span:hover {
+  color: #ED1822;
+}
